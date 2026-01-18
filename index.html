@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial=1.0">
     <title>Flower Shop</title>
  
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- custom css file link-->
      <link rel="stylesheet" href="style/style.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -14,11 +14,10 @@
 
  </head>
  <body>
-
-header section starts -- >
+    
 
 <header>
-
+     
     <input type="checkbox" name="" id="toggler">
     <label for="toggler"  class="fas fa-bars"></label>
 
@@ -32,15 +31,27 @@ header section starts -- >
        <li> <a href="products.html">Products</a> </li>
       <li> <a href="review.html">Review</a> </li>
      <li>  <a href="contact.html">Contact</a> </li>
+    <li>  <a href="team.html">Team</a> </li>
+     <li>  <a href="faq.html">Faq</a> </li>
+     <li>  <a href="Visit-us.html">Visit us</a> </li>
+      <li>  <a href="Bouquet.html">Bouquet</a> </li>
+        <li>  <a href="Price.html">Price</a> </li>
      </ul>
+
+
+
 </nav>
 
 <div class="icons">
-    <a href="#" class="fas fa-heart"></a>
-     <a href="#" class="fas fa-shopping-cart"></a>
+    <a href="icona shopping.svg" class="fas fa-heart"></a>
+     <a href="icona shopping.svg" class="fas fa-shopping-cart"></a>
       <a href="#" class="fas fa-user"></a>
 </div>
 
+
+<div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+</div>
 </header>
 
 <!-- header section ends -->
@@ -57,7 +68,7 @@ header section starts -- >
     </div>
 </section>
 <!-- home section ends -->
-<!-- home section ends -->
+
 <!--about section starts -->
 
 <section class="about" id="about">
@@ -72,7 +83,7 @@ header section starts -- >
 
         <div class="content">
             <h3>why choose us ?</h3>
-            <p>Lorem</p>
+            <p>Choosing our flower shop means choosing quality, creativity, and care. We provide fresh, high-quality flowers and beautifully designed arrangements made to suit every occasion. Our team focuses on personalized service, helping each customer find the perfect flowers to express their feelings. With attention to detail, reliable service, and a passion for floral design, we aim to make every order special and memorable.</p>
             <a href="#" class="btn">learn more</a>
         </div>
     </div>
@@ -126,22 +137,8 @@ header section starts -- >
     <h1 class="heading">latest <span>products</span></h1>
 
     <div class="box-container">
-        <div class="box">
-            <span class="discount">-10%</span>
-            <div class="images">
-                <img src="/img/foto5.jpg" alt>
-                <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="cart-btn">add to cart</a>
-                <a href="#" class="fas fa-share"></a>
-            </div>
-            </div>
-            <div class="content">
-        <h3>flower pot</h3>
-        <div class="price">$12.99<span>$15.99</span>
-        </div>
-    </div>
-        </div>
+       
+       
     
     
     <div class="box">
@@ -157,7 +154,9 @@ header section starts -- >
             <div class="content">
         <h3>flower pot</h3>
         <div class="price">$12.99<span>$15.99</span>
+          
         </div>
+        
     </div>
         </div>
     
@@ -246,22 +245,7 @@ header section starts -- >
     </div>
         </div>
    
-    <div class="box">
-            <span class="discount">-9%</span>
-            <div class="images">
-                <img src="./img/foto13.jpg" alt>
-                <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="cart-btn">Add to card</a>
-                <a href="#" class="fas fa-share"></a>
-            </div>
-            </div>
-            <div class="content">
-        <h3>flower pot</h3>
-        <div class="price">$12.99<span>$15.99</span>
-        </div>
-    </div>
-        </div>
+    
     
 
    
@@ -347,20 +331,20 @@ header section starts -- >
 
 <section class="contact" id="Contact">
 
-    <h1 class="heading"><span>contact</span>us</h1>
+    <h1 class="heading"><span>contact</span> us</h1>
     <div class="row">
 
         <form action="">
             <input type="text"placeholder="name" class="box">
-            <input type="email"placeholder="name" class="box">
-            <input type="number"placeholder="name" class="box">
+            <input type="email"placeholder="email" class="box">
+            <input type="number"placeholder="number" class="box">
             <textarea name="" class="box"placeholder="message" id="" cols="30" rows="10">
                 </textarea> 
                 <input type="submit" value="send message" class="btn">
              </form>
 
              <div class="image">
-                <img src="img/foto1.jpg" alt="">
+                <img src="img/contactus.jpg" alt="">
              </div>
     </div>
 </section>
@@ -369,47 +353,199 @@ header section starts -- >
 
 <!--footer section starts-->
 
-<section class="footer">
-
-<div class="box-container">
-
-<div class="box">
-    <h3>quick links</h3>
-    <a href="#>home"></a>
-     <a href="#>about"></a>
-      <a href="#>products"></a>
-       <a href="#>review"></a>
-        <a href="#>contact"></a>
-</div>
-
-<div class="box">
-    <h3>extra links</h3>
-    <a href="#>my account"></a>
-     <a href="#>my order"></a>
-      <a href="#>my favorite"></a>
-</div>
-
-<div class="box">
-    <h3>locations</h3>
-    <a href="#>india"></a>
-     <a href="#>usa"></a>
-      <a href="#>japan"></a>
-       <a href="#>france"></a>
-</div>
-
-<div class="box">
-    <h3>contact info</h3>
-    <a href="#>+123-456-7890"></a>
-     <a href="#>example@gmail.com"></a>
-      <a href="#>mumbai ,india-400104"></a>
-       <img src="img/foto10.jpg" alt="">
-</div>
-
-</div>
 
 
+<!--team section start-->
+
+<section class="team" id="team">
+    <h1 class="heading">Team <span>staff</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+            </div>
+            <p>I work here because I feel respected and supported. The environment is positive, and teamwork is very important, which motivates me every day.</p>
+        <div class="user">
+            <img src="img/team1.jpg" alt="">
+            <div class="user-info">
+                <h3>Leo</h3>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+        </div>
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+            </div>
+             <p>This business gives me the opportunity to grow and improve my skills. I am trusted with responsibility, and my work is truly valued.</p>
+        <div class="user">
+            <img src="img/team2.jpg" alt="">
+            <div class="user-info">
+                <h3>Britney</h3>
+            </div>
+        </div>
+        </div>
+
+         <div class="box">
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+            </div>
+            <p>I enjoy working here because we share the same passion for quality and customer satisfaction. It feels good to be part of a team that cares.</p>
+        <div class="user">
+            <img src="img/team3.jpg" alt="">
+            <div class="user-info">
+                <h3>Clara</h3>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+        </div>
+    </div>
 </section>
-<!--footer section ends-->
+
+<!--team section ends-->
+
+<!--faq section starts-->
+
+<section class="Faq" id="Faq">
+    <h1 class="heading">Faq </h1>
+
+    <div class="box-container">
+        <details>
+            <summary>Why should i buy flowers from your shop?</summary>
+            <p>Because we offer fresh, high-quality flowers arranged beautifully for every occasion, from birthdays to weddings.</p>
+        </details>
+
+        <details>
+            <summary>Can I trust the freshness of your flowers?</summary>
+            <p>Absolutely! We source our flowers daily to ensure they are always fresh and long-lasting.</p>
+        </details>
+
+        <details>
+            <summary> Can I customize my order?</summary>
+            <p> Of course! You can choose flowers, colors, and designs to create a bouquet that is truly personal.</p>
+            </details>
+
+            <details>
+                <summary>Do you offer advice for flower care?</summary>
+                <p>Yes, we provide tips and guidance so your flowers stay fresh longer and look amazing. </p>
+            </details>
+<!--faq section ends-->
+
+
+<!--visit us section starts-->
+
+<section class="Visit-us" id="Visit-us">
+    <h1 class="heading"><span>Visit</span> us</h1>
+
+    <div class="row">
+
+        <div class="video-container">
+           <img src="./img/visit us.jpg" alt="">
+             <h3> Visit us and let flowers speak for you.</h3>
+        </div>
+
+        <div class="content">
+            <p>Visit our flower shop and experience the beauty of fresh, hand-picked flowers. From elegant bouquets to custom arrangements for every occasion, we’re here to help you find the perfect blooms. Stop by and let us add a touch of color and joy to your day.</p>
+            <a href="" class="btn">learn more</a>
+
+   
+        </div>
+    </div>
+</section>
+
+<!--visit us section ends-->
+
+<!--Bouquet section starts-->
+
+<section class="Bouquet" id="Bouquet">
+
+    <h1 class="heading"> Bouquet<span> of flowers</span></h1>
+
+
+    <p>A bouquet of flowers can brighten anyone's day and bring a smile instanly</p>
+    
+        <div class="box-container">
+            <div class="img">
+                <img src="./img/bouquet1.jpg" alt="" >
+                   <img src="./img/bouquet2.jpg" alt="" >
+                      <img src="./img/bouquet3.jpg" alt="" >
+                         <img src="./img/bouquet4.jpg" alt="" >
+                            <img src="./img/bouquet5.jpg" alt="" >
+                               <img src="./img/bouquet6.jpg" alt="" >
+                                  <img src="./img/bouquet7.jpg" alt="" >
+                                     <img src="./img/bouquet8.jpg" alt="" >
+            </div>
+          
+<!--Bouquet section ends-->
+
+<!--Price section starts-->
+<div class="pricelist">
+    <h2>Flower Price List</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Flowers</th>
+                 <th>Bouquet</th>
+                  <th>Colors</th>
+                  <th>Pieces</th>
+                  <th>Price's</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Roses </td>
+                 <td>personalized </td>
+                  <td>Red,Pink,Yellow,etc </td>
+                   <td>5,10,15,20,..</td>
+                    <td>50$</td>
+            </tr>
+
+            <tr>
+                <td>Tulips</td>
+                 <td>personalized</td>
+                  <td>Pink,violet,white,orange,etc</td>
+                   <td>10,20,...</td>
+                    <td>65$</td>
+            </tr>
+
+           <tr>
+            <td>Lilies</td>
+            <td>personalized</td>
+            <td>White,yellow,violet,blue,etc</td>
+            <td>3,6,9,...</td>
+            <td>45$</td>
+           </tr> 
+
+           <tr>
+            <td>Sun flowers</td>
+            <td>personalized</td>
+            <td>burgyndy,yellow</td>
+            <td>6,8,12,..</td>
+            <td>20$</td>
+         </tr>
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<!--Price section ends-->
+
+
 
 
  </body>
